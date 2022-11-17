@@ -1,11 +1,11 @@
 AWSTemplateFormatVersion: "2010-09-09"
-Parameters:
-  SecurityGroupDescription:
-    Description: Security Group Description
-    Type: String
-  KeyName:
-    Description: Key Pair for EC2
-    Type: 'AWS::EC2::KeyPair::KeyName'
+#Parameters:
+  #SecurityGroupDescription:
+    #Description: Security Group Description
+    #Type: String
+  #KeyName:
+   # Description: Key Pair for EC2
+    #Type: 'AWS::EC2::KeyPair::KeyName'
 Description: EC2-Loadbalancer
 Resources:
 
